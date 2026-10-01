@@ -1,0 +1,1145 @@
+{
+  "curso_id": "36525875",
+  "quantidade_estruturas": 1,
+  "estruturas": [
+    {
+      "id": "36527786",
+      "codigo": "IA01",
+      "ano_criacao": 2027,
+      "status": "Ativa",
+      "quantidade_componentes": 56,
+      "quantidade_obrigatorias": 27,
+      "quantidade_optativas": 29,
+      "componentes": [
+        {
+          "codigo": "IA0001",
+          "nome": "INTRODUÇÃO À PROGRAMAÇÃO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "5506",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0004 OU ECI0099 OU EM0006 OU EM0084 OU ES0003 )",
+          "equivalencias_codigos": [
+            "MC0004",
+            "ECI0099",
+            "EM0006",
+            "EM0084",
+            "ES0003"
+          ]
+        },
+        {
+          "codigo": "IA0002",
+          "nome": "CÁLCULO DIFERENCIAL E INTEGRAL I",
+          "carga_horaria": 96,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "5507",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0001 OU CAR0008 OU CAR0001 OU CC0002 )",
+          "equivalencias_codigos": [
+            "MC0001",
+            "CAR0008",
+            "CAR0001",
+            "CC0002"
+          ]
+        },
+        {
+          "codigo": "IA0003",
+          "nome": "INTRODUÇÃO À INTELIGÊNCIA ARTIFICIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "5508",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0004",
+          "nome": "MATEMÁTICA DISCRETA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "5509",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0005 OU MC0003 )",
+          "equivalencias_codigos": [
+            "CC0005",
+            "MC0003"
+          ]
+        },
+        {
+          "codigo": "IA0005",
+          "nome": "ÉTICA EM INTELIGÊNCIA ARTIFICIAL",
+          "carga_horaria": 32,
+          "tipo": "obrigatoria",
+          "nivel": 1,
+          "id": "5510",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0006",
+          "nome": "ALGORITMOS E ESTRUTURAS DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "5511",
+          "pre_requisitos_expressao": "( IA0001 E IA0004 )",
+          "pre_requisitos_codigos": [
+            "IA0001",
+            "IA0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "IA0001"
+            },
+            "direita": {
+              "codigo": "IA0004"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0007",
+          "nome": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "5512",
+          "pre_requisitos_expressao": "( IA0002 )",
+          "pre_requisitos_codigos": [
+            "IA0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0005 OU CAR0011 OU CAR0004 OU CC0007 )",
+          "equivalencias_codigos": [
+            "MC0005",
+            "CAR0011",
+            "CAR0004",
+            "CC0007"
+          ]
+        },
+        {
+          "codigo": "IA0008",
+          "nome": "ÁLGEBRA LINEAR",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "5513",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0006 OU ECI0002 OU EM0010 OU CC0009 OU CC0063 )",
+          "equivalencias_codigos": [
+            "MC0006",
+            "ECI0002",
+            "EM0010",
+            "CC0009",
+            "CC0063"
+          ]
+        },
+        {
+          "codigo": "IA0009",
+          "nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "5514",
+          "pre_requisitos_expressao": "( IA0001 )",
+          "pre_requisitos_codigos": [
+            "IA0001"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0001"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0018 OU CC0019 OU ES0008 )",
+          "equivalencias_codigos": [
+            "MC0018",
+            "CC0019",
+            "ES0008"
+          ]
+        },
+        {
+          "codigo": "IA0010",
+          "nome": "PROBABILIDADE E ESTATÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 2,
+          "id": "5515",
+          "pre_requisitos_expressao": "( IA0002 )",
+          "pre_requisitos_codigos": [
+            "IA0002"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0002"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0007 OU CAR0003 OU CC0010 )",
+          "equivalencias_codigos": [
+            "MC0007",
+            "CAR0003",
+            "CC0010"
+          ]
+        },
+        {
+          "codigo": "IA0011",
+          "nome": "INTELIGÊNCIA ARTIFICIAL SIMBÓLICA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "5516",
+          "pre_requisitos_expressao": "( IA0003 E IA0004 )",
+          "pre_requisitos_codigos": [
+            "IA0003",
+            "IA0004"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "IA0003"
+            },
+            "direita": {
+              "codigo": "IA0004"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0012",
+          "nome": "CIÊNCIA DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "5517",
+          "pre_requisitos_expressao": "( IA0003 E IA0010 )",
+          "pre_requisitos_codigos": [
+            "IA0003",
+            "IA0010"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "IA0003"
+            },
+            "direita": {
+              "codigo": "IA0010"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0013",
+          "nome": "CONSTRUÇÃO E ANÁLISE DE ALGORITMOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "5518",
+          "pre_requisitos_expressao": "( IA0006 )",
+          "pre_requisitos_codigos": [
+            "IA0006"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0006"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0014",
+          "nome": "ENGENHARIA DE SOFTWARE PARA INTELIGÊNCIA ARTIFICIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "5519",
+          "pre_requisitos_expressao": "( IA0009 )",
+          "pre_requisitos_codigos": [
+            "IA0009"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0009"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0015",
+          "nome": "BANCO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 3,
+          "id": "5520",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0016",
+          "nome": "APRENDIZADO SUPERVISIONADO I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "5521",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0017",
+          "nome": "VISUALIZAÇÃO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "5522",
+          "pre_requisitos_expressao": "( IA0012 E IA0015 )",
+          "pre_requisitos_codigos": [
+            "IA0012",
+            "IA0015"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "IA0012"
+            },
+            "direita": {
+              "codigo": "IA0015"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0018",
+          "nome": "APRENDIZADO NÃO SUPERVISIONADO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "5523",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0019",
+          "nome": "INFRAESTRUTURA PARA SISTEMAS INTELIGENTES I",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "5524",
+          "pre_requisitos_expressao": "( IA0014 )",
+          "pre_requisitos_codigos": [
+            "IA0014"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0014"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0020",
+          "nome": "SISTEMAS MULTIAGENTES",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 4,
+          "id": "5525",
+          "pre_requisitos_expressao": "( IA0011 )",
+          "pre_requisitos_codigos": [
+            "IA0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0021",
+          "nome": "INFRAESTRUTURA PARA SISTEMAS INTELIGENTES II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "5526",
+          "pre_requisitos_expressao": "( IA0019 )",
+          "pre_requisitos_codigos": [
+            "IA0019"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0019"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0022",
+          "nome": "APRENDIZADO SUPERVISIONADO II",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "5527",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0023",
+          "nome": "OTIMIZAÇÃO PARA APRENDIZADO DE MÁQUINA",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 5,
+          "id": "5528",
+          "pre_requisitos_expressao": "( IA0007 E IA0008 E IA0016 )",
+          "pre_requisitos_codigos": [
+            "IA0007",
+            "IA0008",
+            "IA0016"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "operador": "E",
+              "esquerda": {
+                "codigo": "IA0007"
+              },
+              "direita": {
+                "codigo": "IA0008"
+              }
+            },
+            "direita": {
+              "codigo": "IA0016"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0024",
+          "nome": "APRENDIZADO PROFUNDO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "5529",
+          "pre_requisitos_expressao": "( IA0016 )",
+          "pre_requisitos_codigos": [
+            "IA0016"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0016"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0025",
+          "nome": "AVALIAÇÃO DE MODELOS DE INTELIGÊNCIA ARTIFICIAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "5530",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0026",
+          "nome": "APRENDIZADO POR REFORÇO",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 6,
+          "id": "5531",
+          "pre_requisitos_expressao": "( IA0020 )",
+          "pre_requisitos_codigos": [
+            "IA0020"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0020"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0027",
+          "nome": "VISÃO COMPUTACIONAL",
+          "carga_horaria": 64,
+          "tipo": "obrigatoria",
+          "nivel": 7,
+          "id": "5532",
+          "pre_requisitos_expressao": "( IA0024 )",
+          "pre_requisitos_codigos": [
+            "IA0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0028",
+          "nome": "LÍNGUA BRASILEIRA DE SINAIS (LIBRAS)",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5474",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CAR0010 OU MUS0168 OU DES0014 OU ARQ0044 OU DES0102 OU CC0103 )",
+          "equivalencias_codigos": [
+            "CAR0010",
+            "MUS0168",
+            "DES0014",
+            "ARQ0044",
+            "DES0102",
+            "CC0103"
+          ]
+        },
+        {
+          "codigo": "IA0029",
+          "nome": "ALGORITMOS DE APRENDIZADO DE MÁQUINA ONLINE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5475",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0083 )",
+          "equivalencias_codigos": [
+            "CC0083"
+          ]
+        },
+        {
+          "codigo": "IA0030",
+          "nome": "PROCESSAMENTO DE IMAGENS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5476",
+          "pre_requisitos_expressao": "( IA0006 E IA0010 )",
+          "pre_requisitos_codigos": [
+            "IA0006",
+            "IA0010"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "IA0006"
+            },
+            "direita": {
+              "codigo": "IA0010"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( CC0083 )",
+          "equivalencias_codigos": [
+            "CC0083"
+          ]
+        },
+        {
+          "codigo": "IA0031",
+          "nome": "INTELIGÊNCIA ARTIFICIAL APLICADA À SAÚDE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5477",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0032",
+          "nome": "PROCESSAMENTO DE LINGUAGEM NATURAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5478",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0033",
+          "nome": "REDES NEURAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5479",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0034",
+          "nome": "MINERAÇA O DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5480",
+          "pre_requisitos_expressao": "( IA0011 )",
+          "pre_requisitos_codigos": [
+            "IA0011"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0011"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0035",
+          "nome": "SÉRIES TEMPORAIS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5481",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0039 )",
+          "equivalencias_codigos": [
+            "MC0039"
+          ]
+        },
+        {
+          "codigo": "IA0036",
+          "nome": "METODOLOGIA CIENTÍFICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5482",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0037",
+          "nome": "GESTÃO DE PROJETOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5483",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0038",
+          "nome": "FUNDAMENTOS MATEMÁTICOS DA CIÊNCIA DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5484",
+          "pre_requisitos_expressao": "( IA0003 )",
+          "pre_requisitos_codigos": [
+            "IA0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0039",
+          "nome": "TEORIA DOS GRAFOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5485",
+          "pre_requisitos_expressao": "( IA0004 E IA0006 )",
+          "pre_requisitos_codigos": [
+            "IA0004",
+            "IA0006"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "IA0004"
+            },
+            "direita": {
+              "codigo": "IA0006"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0040",
+          "nome": "PESQUISA OPERACIONAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5486",
+          "pre_requisitos_expressao": "( IA0008 )",
+          "pre_requisitos_codigos": [
+            "IA0008"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0008"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0041",
+          "nome": "PROJETO DE SISTEMAS DE BANCO DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5487",
+          "pre_requisitos_expressao": "( IA0015 )",
+          "pre_requisitos_codigos": [
+            "IA0015"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0015"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0042",
+          "nome": "COMPUTAÇÃO EVOLUTIVA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5488",
+          "pre_requisitos_expressao": "( IA0003 )",
+          "pre_requisitos_codigos": [
+            "IA0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0043",
+          "nome": "INTRODUÇÃO À ANÁLISE DE DADOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5489",
+          "pre_requisitos_expressao": "( IA0003 )",
+          "pre_requisitos_codigos": [
+            "IA0003"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0003"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0044",
+          "nome": "EMPREENDEDORISMO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5490",
+          "pre_requisitos_expressao": "( IA0008 E IA0010 )",
+          "pre_requisitos_codigos": [
+            "IA0008",
+            "IA0010"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "IA0008"
+            },
+            "direita": {
+              "codigo": "IA0010"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0045",
+          "nome": "ANÁLISE MULTIVARIADA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5491",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0046",
+          "nome": "MODELAGEM E SIMULAÇÃO DE SISTEMAS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5492",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0047",
+          "nome": "INFERÊNCIA ESTATÍSTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5493",
+          "pre_requisitos_expressao": "( IA0010 )",
+          "pre_requisitos_codigos": [
+            "IA0010"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0010"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0048",
+          "nome": "TÉCNICAS DE AMOSTRAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5494",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0049",
+          "nome": "PROCESSOS ESTOCÁSTICOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5495",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0050",
+          "nome": "SIMULAÇÃO ESTOCÁSTICA",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5496",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0051",
+          "nome": "ANÁLISE DE REGRESSÃO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5497",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0052",
+          "nome": "INTRODUÇÃO A  TEORIA DOS JOGOS",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5498",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0053",
+          "nome": "CONTROLE ESTATÍSTICO DE QUALIDADE",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5499",
+          "pre_requisitos_expressao": "( IA0012 )",
+          "pre_requisitos_codigos": [
+            "IA0012"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0012"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0054",
+          "nome": "INGLÊS TÉCNICO CIENTÍFICO",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5500",
+          "pre_requisitos_expressao": null,
+          "pre_requisitos_codigos": [],
+          "pre_requisitos_regra": null,
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        },
+        {
+          "codigo": "IA0055",
+          "nome": "CÁLCULO VETORIAL",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5501",
+          "pre_requisitos_expressao": "( IA0002 E IA0008 )",
+          "pre_requisitos_codigos": [
+            "IA0002",
+            "IA0008"
+          ],
+          "pre_requisitos_regra": {
+            "operador": "E",
+            "esquerda": {
+              "codigo": "IA0002"
+            },
+            "direita": {
+              "codigo": "IA0008"
+            }
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": "( MC0011 OU CAR0012 )",
+          "equivalencias_codigos": [
+            "MC0011",
+            "CAR0012"
+          ]
+        },
+        {
+          "codigo": "IA0056",
+          "nome": "INTELIGÊNCIA ARTIFICIAL GENERATIVA E MODELOS DE LINGUAGEM",
+          "carga_horaria": 64,
+          "tipo": "optativa",
+          "nivel": null,
+          "id": "5502",
+          "pre_requisitos_expressao": "( IA0024 )",
+          "pre_requisitos_codigos": [
+            "IA0024"
+          ],
+          "pre_requisitos_regra": {
+            "codigo": "IA0024"
+          },
+          "co_requisitos_expressao": null,
+          "co_requisitos_codigos": [],
+          "equivalencias_expressao": null,
+          "equivalencias_codigos": []
+        }
+      ]
+    }
+  ],
+  "atualizado_em": "2026-10-01T17:04:39.409463+00:00"
+}

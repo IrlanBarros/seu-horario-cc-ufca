@@ -1,6 +1,6 @@
 {
-  "quantidade_cursos": 21,
-  "quantidade_disponiveis": 20,
+  "quantidade_cursos": 22,
+  "quantidade_disponiveis": 21,
   "quantidade_indisponiveis": 1,
   "cursos": [
     {
@@ -80,6 +80,13 @@
       "modalidade": "Presencial",
       "disponivel": true,
       "arquivo": "35137411.json"
+    },
+    {
+      "id": "36525875",
+      "nome": "INTELIGÊNCIA ARTIFICIAL",
+      "modalidade": "Presencial",
+      "disponivel": true,
+      "arquivo": "36525875.json"
     },
     {
       "id": "32650450",
